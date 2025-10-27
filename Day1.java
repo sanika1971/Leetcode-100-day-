@@ -1,3 +1,6 @@
+// Given an integer x, return true if x is a palindrome, and false otherwise.
+
+
 import java.util.Scanner;
 
 public class Day1 {
