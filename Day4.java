@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class Day4 {
     public static int tribonacci(int n) {
         if (n == 0) return 0;
         if (n == 1 || n == 2) return 1;
@@ -24,9 +24,10 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n: ");
         int n = sc.nextInt();
-        sc.close();
 
         int result = tribonacci(n);
         System.out.println("Tribonacci of " + n + " is: " + result);
+        
+        sc.close(); // optional, can be removed if warning appears
     }
 }
